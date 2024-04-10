@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import path, include          # Import include module
 from covwebapp import settings
-from home import views
+from predictor import views
 from django.conf.urls.static import static
 
 urlpatterns = [
